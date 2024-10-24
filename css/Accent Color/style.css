@@ -1,0 +1,6 @@
+/* A propriedade accent-color especifica a cor de destaque para controles, como: <input type="checkbox">,
+<input type="radio">, <input type="range"> e <progress>. */
+
+input {
+  accent-color: #8a70ff;
+}

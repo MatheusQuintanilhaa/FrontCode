@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datalist</title>
+  </head>
+  <body>
+    <input type="text" list="stack" />
+
+    <datalist id="stack">
+      <option value="front-end"></option>
+      <option value="back-end"></option>
+      <option value="fullstack"></option>
+    </datalist>
+
+    <!-- O atributo id do elemento <datalist> deve ser igual ao atributo list do elemento <input> (isso os vincula). -->
+
+    <!-- O <datalist> geralmente é usado em formulários, junto com um campo <input>, para oferecer sugestões de entrada ao usuário. -->
+
+    <form>
+      <label for="countries">Países:</label>
+      <input type="text" id="countries" list="countrie" />
+      <datalist id="countrie">
+        <option value="Brasil"></option>
+        <option value="Eua"></option>
+        <option value="Argentina"></option>
+        <option value="Peru"></option>
+      </datalist>
+    </form>
+  </body>
+</html>

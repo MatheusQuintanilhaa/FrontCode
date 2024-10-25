@@ -1,0 +1,20 @@
+/* A propriedade 'Box Reflect' é usada para criar um reflexo de um elemento. */
+
+/* O valor do 'Box Reflect' pode ser: below, above, left ou right. */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.naruto {
+  width: 200px;
+  height: auto;
+  -webkit-box-reflect: above;
+}
+
+/* Observação: a propriedade 'Box Reflect' não é padrão e deve ser escrita com o prefixo -webkit-,
+então pode não funcionar em todos os navegadores. Use-a como um efeito estético e tenha cuidado com a compatibilidade cross-browser. */
